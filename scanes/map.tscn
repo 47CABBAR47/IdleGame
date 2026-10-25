@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://clxcpe3yxdcvt"]
+
+[ext_resource type="Texture2D" uid="uid://dl5xjqbifotvx" path="res://texture/Gemini_Generated_Image_uc6b6iuc6b6iuc6b.jpg" id="1_e7yca"]
+[ext_resource type="Texture2D" uid="uid://btkor5e2turl7" path="res://texture/Camp.png" id="2_3f2ti"]
+
+[node name="Map" type="Control" unique_id=133382667]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=48634991]
+layout_mode = 0
+offset_right = 1440.0
+offset_bottom = 3200.0
+
+[node name="Map" type="TextureRect" parent="ScrollContainer" unique_id=787725845]
+layout_mode = 2
+texture = ExtResource("1_e7yca")
+
+[node name="TextureButton" type="TextureButton" parent="ScrollContainer/Map" unique_id=1325015265]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.17500001
+anchor_bottom = 0.109000005
+offset_left = 390.0
+offset_top = 1624.0
+offset_right = 631.0
+offset_bottom = 1758.2
+texture_normal = ExtResource("2_3f2ti")
