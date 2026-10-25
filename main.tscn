@@ -1,9 +1,31 @@
 [gd_scene format=3 uid="uid://bohgp7o47yvkl"]
 
-[node name="Control" type="Control" unique_id=1916087401]
+[node name="MainScane" type="Control" unique_id=1916087401]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="MenuBox" type="VBoxContainer" parent="." unique_id=1152894791]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -117.0
+offset_top = -34.0
+offset_right = 117.0
+offset_bottom = 34.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" type="Button" parent="MenuBox" unique_id=62355648]
+layout_mode = 2
+text = "START"
+
+[node name="ExitButton" type="Button" parent="MenuBox" unique_id=709559887]
+layout_mode = 2
+text = "EXIT"
